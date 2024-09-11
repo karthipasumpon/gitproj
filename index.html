@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <!-- Internal Style -->
+    <style>
+        h2 {
+            color: blue
+        }
+    </style>
+    <!-- External Style -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>CSS</h1>
+
+    <!-- Inline Style -->
+    <h2 style="color: red;">This is Main Heading</h2>
+
+    <!-- Element name Target -->
+    <h2>This is Main Heading</h2>
+
+    <!-- Class Name Target -->
+    <h2 class="subhead">Sub Heading</h2>
+
+    <!-- Attribute Name Target -->
+    <h2 title="This is Attribute" class="subhead">This is Attribute Heading</h2>
+
+    <!-- Id Name Target -->
+    <h2 class="subhead" id="mainhead">This is ID Heading</h2>
+
+    <h2>Outside Div</h2>
+
+    <div class="container">
+        <!-- Multiple Class Name -->
+        <h2 class="subhead subhead1">Inside container 1</h2>
+        <h2 class="subhead">Inside container 2</h2>
+        <h2>Inside container 3</h2>
+        <div class="subcontainer">
+            <h2>Inside sub container 1</h2>
+            <h2>Inside sub container 2</h2>
+        </div>
+    </div>
+    <!-- .container + h2 --> 
+    <h2 class="subhead">Outside container 1</h2>
+    <!-- .container + h2 + h2 --> 
+    <h2>Outside container 2</h2>
+    
+
+</body>
+</html>

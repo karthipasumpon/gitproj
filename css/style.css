@@ -1,0 +1,79 @@
+/* Targeting Element */
+/* Element Name */
+h2 {
+    color : green;
+}
+/* Class Name */
+.subhead {
+    color: red !important;
+}
+/* Attribute Name */
+[title] {
+    color: blue;
+}
+/* ID Name */
+#mainhead {
+    color: purple;
+}
+
+
+/* Descendent Selector */
+.container h2  {
+    color : green;
+}
+
+.container .subhead {
+    color: red;
+}
+
+/* Adjacent  Selector */
+.container p + h2  {
+    color : green;
+}
+.container p + h2, 
+.container p + h2 + h2  {
+    color: red;
+}
+/* General Selector */
+.container p ~ h2 {
+    color: blue;
+}
+
+ /* Child Selector */
+/* Direct Child */
+ .container > h2 {
+    color: green;
+ }
+
+/* Multiple Class Name */
+.container .subhead.subhead1 {
+    color: blue;
+}
+
+
+/* Genernal */
+/* CSS - Cascading Style Sheet
+Current Version - CSS 3
+
+Types
+
+1.Inline
+2.Internal
+3.External use
+
+Syntax:
+selector {
+  property: value;
+}
+
+Targeting Element
+
+1.Element Name 
+2.Element Class Name
+3.Element Attribute Name
+4.Element Id Name
+
+Descendent Selector  (space)
+Adjacent Selector +
+General Selector  ~
+Child Selector > (direct Child) */
